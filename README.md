@@ -31,7 +31,3 @@ A "Song" struct type with all the information
 &{14 Otro Trago - Remix Sech panamanian pop 176 79 73 -2 6 76 288 7 20 87}
 &{15 Money In The Grave (Drake ft. Rick Ross) Drake canadian hip hop 101 50 83 -4 12 10 205 10 5 92}
 ```
-
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
