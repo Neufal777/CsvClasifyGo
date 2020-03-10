@@ -28,7 +28,6 @@ type Song struct {
 func (song *Song) readList(fileName []string) {
 
 	//read all files passed
-
 	for _, file := range fileName {
 
 		//open the file
@@ -39,11 +38,9 @@ func (song *Song) readList(fileName []string) {
 		}
 
 		//parse the file
-
 		r := csv.NewReader(csvfile)
 
 		//iterate through the records
-
 		for {
 
 			//read each record from csv
@@ -73,7 +70,8 @@ func (song *Song) readList(fileName []string) {
 				Speechness:   record[12],
 				Popularity:   record[13],
 			}
-
+			
+			//Print struct with the information of each song in the list
 			fmt.Println(song)
 		}
 	}
