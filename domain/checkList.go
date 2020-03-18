@@ -1,4 +1,4 @@
-package main
+package domain
 
 import (
 	"encoding/csv"
@@ -70,7 +70,7 @@ func (song *Song) readList(fileName []string) {
 				Speechness:   record[12],
 				Popularity:   record[13],
 			}
-			
+
 			//Print struct with the information of each song in the list
 			fmt.Println(song)
 		}
